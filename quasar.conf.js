@@ -110,6 +110,24 @@ module.exports = configure(function (ctx) {
           classes: path.resolve(__dirname, './src/classes'),
           i18n: path.resolve(__dirname, './src/i18n'),
         };
+        // cfg.module.rules.push({
+        //   test: /\.(png|jpe?g|gif|svg)$/i,
+        //   loader: 'file-loader',
+        //   options: {
+        //     outputPath: 'img',
+        //     name(file) {
+        //       return '[name].[ext]';
+        //     },
+        //     esModule: false,
+        //   }
+        // });
+        // cfg.module.rules.push({
+        //   test: /\.scss$/,
+        //   loader: 'sass-loader',
+        //   options: {
+        //     additionalData: `@import 'src/extensions/tailwind.css';`
+        //   }
+        // });
       },
     },
     configureWebpack: (config) => {

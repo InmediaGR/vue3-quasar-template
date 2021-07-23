@@ -56,7 +56,6 @@
     "miragejs": "^0.1.41",
     "null-loader": "^4.0.1",
     "prettier": "^2.3.0",
-    "quasar-app-extension-tailwindcss": "^2.0.5",
     "raw-loader": "^4.0.2"
   },
   "browserslist": [
